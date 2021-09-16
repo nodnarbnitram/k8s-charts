@@ -19,10 +19,13 @@ env:
   # -- Set the container timezone
   TZ: "America/Chicago"
   SERVER_NAME: "Derpangtons"
-  # SERVER_PORT: 2456
+  SERVER_PORT: 2456
   WORLD_NAME: "Hjoldr"
   SERVER_PASS: itsabadsecret
   SERVER_PUBLIC: false
+  DISCORD_WEBHOOK: https://discord.com/api/webhooks/
+  DISCORD_RESTART: "Restarting Valheim server in one minute!"
+  PRE_RESTART_HOOK: 'curl -sfSL -X POST -H "Content-Type: application/json" -d "{\"username\":\"Valheim\",\"content\":\"$DISCORD_RESTART\"}" "$DISCORD_WEBHOOK" && sleep 60'
   # UPDATE_INTERVAL: 10800 # every 3 hours
   # BACKUPS: true
   # BACKUPS_INTERVAL: 43200 # every 12 hours
