@@ -1,6 +1,6 @@
 # home-assistant
 
-![Version: 11.0.3](https://img.shields.io/badge/Version-11.0.3-informational?style=flat-square) ![AppVersion: 2021.6.3](https://img.shields.io/badge/AppVersion-2021.6.3-informational?style=flat-square)
+![Version: 11.0.5](https://img.shields.io/badge/Version-11.0.5-informational?style=flat-square) ![AppVersion: 2021.6.3](https://img.shields.io/badge/AppVersion-2021.6.3-informational?style=flat-square)
 
 Home Assistant
 
@@ -22,7 +22,7 @@ Kubernetes: `>=1.16.0-0`
 |------------|------|---------|
 | https://charts.bitnami.com/bitnami | influxdb | 1.1.9 |
 | https://charts.bitnami.com/bitnami | mariadb | 9.4.4 |
-| https://charts.bitnami.com/bitnami | postgresql | 10.9.4 |
+| https://charts.bitnami.com/bitnami | postgresql | 10.9.6 |
 | https://library-charts.k8s-at-home.com | common | 4.0.1 |
 
 ## TL;DR
@@ -136,6 +136,11 @@ ingress:
 
 The value derived is the name of the kubernetes service object for home-assistant
 
+### Metrics collection
+
+If metrics collection is enabled through the `metrics.enabled: true` setting, make sure to also enable the Prometheus
+endpoint in your Home-Assistant configuration. See the [official documentation](https://www.home-assistant.io/integrations/prometheus/) for more details on how to set this up.
+
 ## Values
 
 **Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
@@ -169,6 +174,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+### [11.0.5]
+
+#### Fixed
+
+- Updated chart documentation.
 
 ### [11.0.0]
 

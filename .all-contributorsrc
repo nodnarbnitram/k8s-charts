@@ -301,6 +301,51 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "alexwaibel",
+      "name": "Alex Waibel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7026879?v=4",
+      "profile": "https://waibel.us",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "simoncaron",
+      "name": "Simon Caron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8635747?v=4",
+      "profile": "https://github.com/simoncaron",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Kimi450",
+      "name": "Karan Samani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24758074?v=4",
+      "profile": "https://github.com/Kimi450",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "reitermarkus",
+      "name": "Markus Reiter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1309829?v=4",
+      "profile": "http://reitermark.us",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "brenix",
+      "name": "Paul N",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1131159?v=4",
+      "profile": "https://github.com/brenix",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

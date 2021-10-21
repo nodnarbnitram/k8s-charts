@@ -6,8 +6,10 @@
 | [airsonic](stable/airsonic) | Airsonic is a Free and Open Source community driven media server |
 | [alertmanager-bot](stable/alertmanager-bot) | Bot for Prometheus Alertmanager |
 | [amcrest2mqtt](stable/amcrest2mqtt) | Expose all events from an Amcrest device to an MQTT broker |
+| [anonaddy](stable/anonaddy) | Anonaddy: Anonymous email forwarding |
 | [apache-musicindex](stable/apache-musicindex) | Index and stream music using apache-musicindex and m3u playlists |
 | [appdaemon](stable/appdaemon) | AppDaemon is a loosely coupled, multi-threaded, sandboxed python execution environment for writing automation apps for various types of Home Automation Software including Home Assistant and MQTT. |
+| [aria2](stable/aria2) | aria server for downloading web content |
 | [baikal](stable/baikal) | Baïkal is a lightweight CalDAV+CardDAV server. It offers a web interface with management of users, address books and calendars. |
 | [bazarr](stable/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements |
 | [blocky](stable/blocky) | DNS proxy as ad-blocker for local network |
@@ -81,6 +83,7 @@
 | [openemr](stable/openemr) | OpenEMR is the most popular open source electronic health records and medical practice management solution. |
 | [openkm](stable/openkm) | OpenKM integrates all essential documents management, collaboration and an advanced search functionality into one easy to use solution. |
 | [organizr](stable/organizr) | HTPC/Homelab Services Organizer |
+| [overleaf](stable/overleaf) | A web-based collaborative LaTeX editor |
 | [overseerr](stable/overseerr) | Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex! |
 | [owncast](stable/owncast) | Take control over your live stream video by running it yourself. Streaming + chat out of the box. |
 | [owncloud-ocis](stable/owncloud-ocis) | ownCloud Infinite Scale is a self-hosted file sync and share server. |
@@ -150,3 +153,6 @@
 | Chart | Description |
 | ----- | ----------- |
 | [changedetection-io](incubator/changedetection-io) | changedetection-io helm package |
+| [openhab](incubator/openhab) | openhab helm package |
+| [seafile](incubator/seafile) | seafile helm package |
+| [teamspeak](incubator/teamspeak) | TeamSpeak Server |

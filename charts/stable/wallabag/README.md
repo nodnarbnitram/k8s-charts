@@ -1,6 +1,6 @@
 # wallabag
 
-![Version: 4.1.1](https://img.shields.io/badge/Version-4.1.1-informational?style=flat-square) ![AppVersion: 2.4.2](https://img.shields.io/badge/AppVersion-2.4.2-informational?style=flat-square)
+![Version: 5.0.1](https://img.shields.io/badge/Version-5.0.1-informational?style=flat-square) ![AppVersion: 2.4.2](https://img.shields.io/badge/AppVersion-2.4.2-informational?style=flat-square)
 
 A self hostable application for saving web pages, freely.
 
@@ -20,8 +20,8 @@ Kubernetes: `>=1.16.0-0`
 | Repository | Name | Version |
 |------------|------|---------|
 | https://charts.bitnami.com/bitnami | mariadb | 9.4.4 |
-| https://charts.bitnami.com/bitnami | postgresql | 10.9.4 |
-| https://charts.bitnami.com/bitnami | redis | 14.8.11 |
+| https://charts.bitnami.com/bitnami | postgresql | 10.9.6 |
+| https://charts.bitnami.com/bitnami | redis | 15.4.0 |
 | https://library-charts.k8s-at-home.com | common | 4.0.1 |
 
 ## TL;DR
@@ -97,6 +97,12 @@ All notable changes to this application Helm chart will be documented in this fi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+### [5.0.0]
+
+#### Changed
+
+- Upgraded the redis dependency to version 15.x. Be sure to check out the [redis chart repo](https://github.com/bitnami/charts/tree/master/bitnami/redis) for the up-to-date values.
+
 ### [4.0.0]
 
 #### Changed
@@ -124,6 +130,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Initial version of the chart
 
+[5.0.0]: #500
 [4.0.0]: #400
 [3.0.0]: #300
 [2.4.1]: #241
