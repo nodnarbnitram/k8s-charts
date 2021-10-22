@@ -25,6 +25,7 @@ env:
 # @default -- See values.yaml
 service:
   main:
+    type: LoadBalancer
     ports:
       http:
         port: 8091
